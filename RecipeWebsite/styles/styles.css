@@ -1,0 +1,211 @@
+body {
+	background-image: url("background2.png");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Caveat', cursive;
+	font-size: 0.9em;
+	margin: 0px;
+	
+}
+
+.instructions {
+	width: 70%; /* set the width to 40% */
+	margin: 0 auto; /* center the div horizontally */
+	padding: 1%;
+	
+	
+}
+
+
+
+
+titleIns {
+	text-align: center;
+}
+
+header {
+	display: flex; /*makes the elements go side by side */
+	justify-content: space-between;
+    padding-left: 38px;
+	padding-right: 38px;
+	background-color: #ff72a4;
+	color: white;
+	font-family: 'Lobster', cursive;
+}
+
+main {
+	
+}
+
+.title {
+	display:block; 
+    margin:0 auto;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 4%;
+	font-family: 'Lobster', cursive;
+	color: yellow;
+	padding-top: 1%;
+	font-size: 2em;
+	
+}
+
+.logo {
+	text-align: center;
+	display: flex;
+	width: 20%;
+}
+
+.right-side {
+	text-align: right;
+	display: flex;
+	width: 17%;
+	justify-content: space-between;
+	font-size: 1.2em;
+	
+}
+.link {
+	margin-top: 8%;
+}
+.link a {
+	
+    color: yellow;
+    transition: color 0.5s;
+	
+}
+
+.link a:hover {
+    color: white;
+}
+
+img {
+    display:block; 
+	width: 100%;
+	border-radius: 100%;
+
+	
+	
+}
+
+.ingredients {
+  width: 90%; /* set the width to 40% */
+  padding-left: 1%;
+}
+
+.ingtitle {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	
+
+}
+
+.recipe {
+	display: flex; /*makes the elements go side by side */
+	justify-content: space-between;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 3%; /*rounds the corners*/
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 3%;
+	margin-bottom: 7%;
+	color: #ff5591;
+	font-size: 1.3em;
+}
+
+.left-side {
+	width: 50%;
+}
+
+.video {
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 3%; /*rounds the corners*/
+	text-align: center; /* aligns the video to the center of the div */
+	margin-left: 20%; /* gives 20% space from edge of page to div */
+	margin-right: 20%;
+	height: 400px;
+	padding: 3%;
+	
+	
+} 
+
+iframe {
+   width: 100%; /* makes the video take up the entire div*/
+   height: 100%;
+}
+
+.sticker-container {
+	position: absolute; /* set the container as a relative positioning context */
+	z-index:2; /* sets it on top of the other divs*/
+	width: 90%;
+	height: 200%;
+}
+
+.sticker {
+	width: 10%;
+	position: absolute; /* position the image absolutely */
+	z-index:3; /* sets it on top of the other divs*/
+	top: 6.5%; /* position the image from the top of the container */
+	left: 83%; /* position the image from the left of the container */
+	
+}
+
+.videost {
+	width: 20%;
+	position: absolute; /* position the image absolutely */
+	z-index:3;
+	left: 14%;
+	top: 52%;
+	
+}
+
+.footer-container {
+	margin-top: 10%;
+	font-size: 1.2em;
+	display: flex;
+	flex-wrap: wrap; /* To wrap the divs if they don't fit on one row */
+	background-color: #ff72a4;
+	color: white;
+	padding: 2%;
+}
+
+.footer-col {
+	flex-basis: 33.33%; /* Each column will take up 1/3 of the width */
+}
+
+.yum {
+	width: 60%;
+	margin:0 auto;
+}
+
+.team {
+	display: flex;
+}
+
+.team-col {
+	flex-basis: 33.33%;
+	padding: 5%;
+	margin: 2%;
+	text-align: center;
+	color: #ff5591;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5%;
+	font-family: 'Lobster', cursive;
+}
+
+.portfolio-items-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.recipe-col {
+	flex-basis: 11%;
+	padding: 5%;
+	margin: 2%;
+	text-align: center;
+	color: #ff5591;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5%;
+	font-family: 'Lobster', cursive;
